@@ -177,19 +177,21 @@ button{
 
 .social{
   display: inline-block;
-  background: transparent;
+  color: transparent;
   height: 60px;
   width: 60px;
+  background-repeat: no-repeat;
+  /*How do I centre these?*/
 }
 
 
 #twitter {
   background-image: url("../images/twitter.png");
-} /*Having trouble stopping the image repeating and removing the text*/
+}
 
 #facebook{
   background-image: url("../images/facebook.png");
-} /*As with #twitter, having trouble stopping the image repeating and removing the text*/
+}
 
 #copyright{
   font-weight:600;
